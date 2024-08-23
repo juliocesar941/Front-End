@@ -105,3 +105,155 @@ text-align: center;
      .card1   img{
             border-radius: 10px;
         }
+
+
+
+        main{
+
+        width: 100%;
+       
+
+        }
+
+        .main img{
+            width: 100%;
+            
+            object-fit:contain;
+            border-radius: 10px;
+
+        }
+
+
+        .container-topo{
+
+            background-color: black;
+           display: flex;
+           width: 100%;
+          
+        }
+
+
+
+
+        .row_tp{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 4.5rem;
+             color: antiquewhite;
+            background-color: rgb(27, 81, 129);
+
+        }
+
+        .col02 a {
+           
+        text-decoration: none;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: antiquewhite;
+        gap: 100px;
+
+        }
+
+
+        .col01{
+        margin-left: 3%;
+
+        }
+
+        .col02{
+            margin-right: 3%;
+            width: auto;
+            gap: 5%;
+
+
+
+        }
+
+
+
+        /*---------------FORMULARIO-----------------------*/
+
+
+        form {
+            max-width: 400px;
+            margin: auto;
+            background-color:#205375;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+
+
+        .cad{
+
+    color: rgb(194, 213, 213);
+
+
+        }
+
+
+
+        input[type=text],
+        input[type=email],
+        input[type=password] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 15px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            
+        }
+
+        input[type=submit] {
+            background-color:#1a71b0;
+            color: rgb(194, 213, 213);
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        input[type=submit]:hover {
+            background-color: #318034;
+        }
+
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+
+.form-cad{
+display: flex;
+
+align-items: center;
+justify-content:space-between;
+
+ }
+
+
+
+.cad-foto{
+
+background-color: rgb(201, 190, 190);
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-left: 5px;
+border-right: 5px;
+width: 90px;
+height: 90px;
+border: 5px solid rgb(157, 166, 172);
+
+
+ }
+
